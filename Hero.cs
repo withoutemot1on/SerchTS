@@ -11,13 +11,14 @@ namespace MauiApp2
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Patronymic { get; set; }
+        public string Pic { get; set; }
 
-        public Hero(string surname, string name, string patronymic)
+        public Hero(string surname, string name, string patronymic,string pic)
         {
             Surname = surname;
             Name = name;
             Patronymic = patronymic;
-
+            Pic = pic;
         }
     }
 }

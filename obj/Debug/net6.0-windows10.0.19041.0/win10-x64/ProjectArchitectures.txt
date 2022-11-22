@@ -1,0 +1,1 @@
+C:\Users\user\Desktop\SerchTS\MauiApp2.csproj;x64

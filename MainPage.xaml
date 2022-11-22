@@ -42,12 +42,12 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-
+                
                 <Label x:Name="Name" Grid.Column="0" Grid.Row="0" Text="{Binding client1.Name}"></Label>
                 <Label Grid.Column="0" Grid.Row="1" Text="{Binding client1.Surname}"></Label>
                 <Label Grid.Column="0" Grid.Row="2" Text="{Binding client1.Patronymic}"></Label>
-            
-                <Image x:Name="img" BackgroundColor="CornflowerBlue" Grid.Column="1" Grid.RowSpan="3" ></Image>
+
+                <Image x:Name="img" BackgroundColor="CornflowerBlue" Grid.Column="1" Grid.RowSpan="3" Source="{Binding client1.Pic}" ></Image>
             </Grid>
 
             <Grid MaximumHeightRequest="300" Padding="20" x:Name="Card2">
@@ -62,12 +62,12 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-
+                
                 <Label Grid.Column="0" Grid.Row="0" Text="{Binding client2.Name}"></Label>
                 <Label Grid.Column="0" Grid.Row="1" Text="{Binding client2.Surname}"></Label>
                 <Label Grid.Column="0" Grid.Row="2" Text="{Binding client2.Patronymic}"></Label>
 
-                <Image x:Name="img1" BackgroundColor="PapayaWhip" Grid.Column="1" Grid.RowSpan="3" ></Image>
+                <Image x:Name="img1" BackgroundColor="Plum" Grid.Column="1" Grid.RowSpan="3" Source="{Binding client2.Pic}" ></Image>
             </Grid>
 
             <Grid MaximumHeightRequest="300" Padding="20" x:Name="Card3">
@@ -82,12 +82,12 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-
+                
                 <Label Grid.Column="0" Grid.Row="0" Text="{Binding client3.Name}"></Label>
                 <Label Grid.Column="0" Grid.Row="1" Text="{Binding client3.Surname}"></Label>
                 <Label Grid.Column="0" Grid.Row="2" Text="{Binding client3.Patronymic}"></Label>
 
-                <Image x:Name="img2" BackgroundColor="OliveDrab" Grid.Column="1" Grid.RowSpan="3" ></Image>
+                <Image x:Name="img2" BackgroundColor="Navy" Grid.Column="1" Grid.RowSpan="3" Source="{Binding client3.Pic}" ></Image>
 
 
             </Grid>
@@ -104,12 +104,12 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-
+              
                 <Label Grid.Column="0" Grid.Row="0" Text="{Binding client4.Name}"></Label>
                 <Label Grid.Column="0" Grid.Row="1" Text="{Binding client4.Surname}"></Label>
                 <Label Grid.Column="0" Grid.Row="2" Text="{Binding client4.Patronymic}"></Label>
 
-                <Image x:Name="img3" BackgroundColor="Moccasin" Grid.Column="1" Grid.RowSpan="3" ></Image>
+                <Image x:Name="img3" BackgroundColor="OldLace" Grid.Column="1" Grid.RowSpan="3" Source="{Binding client4.Pic}" ></Image>
 
 
             </Grid>

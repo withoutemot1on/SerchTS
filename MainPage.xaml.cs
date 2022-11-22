@@ -6,26 +6,26 @@ namespace MauiApp2;
 public partial class MainPage : ContentPage
 {
 	public ObservableCollection<Hero> sword { get; set; }
-	public Hero client1 { get; set; }
-	public Hero client2 { get; set; }
-	public Hero client3 { get; set; }
-	public Hero client4 { get; set; }
+    public Hero client1 { get; set; }
+    public Hero client2 { get; set; }
+    public Hero client3 { get; set; }
+    public Hero client4 { get; set; }
 
-	public MainPage()
+    public MainPage()
     {
 
-        client1 = new Hero("Магомед", "Collapse", "Халилов");
-        client2 = new Hero("Александр ", "TORONTOTOKYO", "Хертек ");
-        client3 = new Hero("Мирослав", "Mira", "Колпаков");
-        client4 = new Hero("Ярослав", "Miposhka", "Найденов");
+        client1 = new Hero("Магомед", "Collapse", "Халилов", "maga.jpg");
+        client2 = new Hero("Александр ", "TORONTOTOKYO", "Хертек ", "toronto.jpg");
+        client3 = new Hero("Мирослав", "Mira", "Колпаков", "mira.jpg");
+        client4 = new Hero("Ярослав", "Miposhka", "Найденов", "yarik.jpg");
 
-		sword = new ObservableCollection<Hero>();
+        sword = new ObservableCollection<Hero>();
         sword.Add(client1);
         sword.Add(client2);
         sword.Add(client3);
         sword.Add(client4);
 
-		BindingContext = this;
+        BindingContext = this;
         InitializeComponent();
     }
 
